@@ -1,0 +1,51 @@
+title: Java 25 för Java 21-utvecklare
+subtitle: En praktisk lärobok för erfarna systemutvecklare
+author: Erland Lindmark
+language: sv
+difficulty: experienced
+audience: Erfarna systemutvecklare som redan kan Java 21
+book_type: textbook
+edition: '1'
+version: '1.2'
+date: '2026-05-14'
+rights: All rights reserved
+publisher: ''
+cover_image: ''
+identifier: urn:uuid:62be940a-7cd3-40a3-bb4b-11f6e33e2d99
+creator_role: aut
+subject: Java 25, Java 21, JDK, migrering, modern Java
+description: En svensk praktisk lärobok om att förstå och använda Java 25 för utvecklare
+  som redan arbetar med Java 21.
+project_slug: java-25-for-java-21-utvecklare
+zip_naming:
+  initial: java-25-for-java-21-utvecklare-projekt.zip
+  chapter_update: java-25-for-java-21-utvecklare-projekt-kapitel-NN.zip
+chapters:
+- chapters/00-inledning.md
+- chapters/01-fran-java-21-till-java-25.md
+- chapters/02-verktygskedjan-och-forsta-migreringsloopen.md
+- chapters/03-compact-source-files-och-instance-main-methods.md
+- chapters/04-module-import-declarations.md
+- chapters/05-flexible-constructor-bodies.md
+- chapters/06-primitive-types-i-patterns-instanceof-och-switch.md
+- chapters/07-scoped-values-i-praktiken.md
+- chapters/08-structured-concurrency-och-virtual-threads.md
+- chapters/09-stream-gatherers-och-nya-satt-att-forma-datafloden.md
+- chapters/10-aot-compact-object-headers-och-gc-nyheter.md
+- chapters/11-jfr-nyheter-for-cpu-sampling-och-metodtracing.md
+- chapters/12-kryptografi-unsafe-jni-och-produktionsbeslut.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true
